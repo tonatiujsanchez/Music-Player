@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+    
+</head>
+<body>
+    <!-- Player -->
+    <main class="player">
+        
+        <!-- Title -->
+        <h1 class="player__title">Nueva Canción</h1>
+        
+        <!-- Cover -->
+        <figure class="player__img">
+            <img src="./img/cat-1.jpg" alt="Image Cat" class="player__cover">
+        </figure>
+
+        <!-- Progressbar -->
+        <div class="player__progressbar">
+            <section class="player__progress"></section>
+        </div>
+
+        <!-- Controls -->
+        <section class="controls">
+            <button class="controls__prev">
+                <i class="fas fa-backward controls__icon"></i>
+            </button>
+            <button class="controls__play">
+                <i class="fas fa-play controls__icon"></i>
+            </button>
+            <button class="controls__next">
+                <i class="fas fa-forward controls__icon"></i>
+            </button>
+        </section>
+
+        <!-- Songs list -->
+        <ul class="sogs">
+            <li class="sogs__item"><a href="#" class="sogs__link">Song 1</a></li>
+            <li class="sogs__item"><a href="#" class="sogs__link">Song 2</a></li>
+            <li class="sogs__item"><a href="#" class="sogs__link">Song 3</a></li>
+        </ul>
+
+    </main>
+
+    
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>

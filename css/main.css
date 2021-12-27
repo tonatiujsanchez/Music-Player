@@ -33,6 +33,9 @@ img{
 .player__title{
     margin-top: 0;
     text-align: center;
+    font-size: 1.5rem;
+    min-width: 200px;
+    margin-bottom: 2rem;
 }
 
 /* Cover */
@@ -53,7 +56,7 @@ img{
 .player__progress{
     background-color: goldenrod;
     height: 100%;
-    width: 50%;
+    width: 0;
 }
 
 /* Controls */
@@ -90,6 +93,10 @@ img{
     margin-bottom: 1rem;
 }
 .sogs__link{
-    color: white;
+    color: lightgrey;
     text-decoration: none;
+}
+.sogs__link.active{
+    color: white;
+    font-weight: bold;
 }

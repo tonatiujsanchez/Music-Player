@@ -15,36 +15,36 @@
     <main class="player">
         
         <!-- Title -->
-        <h1 class="player__title">Nueva Canción</h1>
+        <h1 class="player__title" id="title">Music Player</h1>
         
         <!-- Cover -->
         <figure class="player__img">
-            <img src="./img/cat-1.jpg" alt="Image Cat" class="player__cover">
+            <img src="./img/image-vinilo.jpg" alt="Image Cat" class="player__cover" id="cover">
         </figure>
 
+        <audio src="" id="audio"></audio>
+
         <!-- Progressbar -->
-        <div class="player__progressbar">
-            <section class="player__progress"></section>
+        <div class="player__progressbar" id="progress-container">
+            <section class="player__progress" id="progress"></section>
         </div>
 
         <!-- Controls -->
         <section class="controls">
             <button class="controls__prev">
-                <i class="fas fa-backward controls__icon"></i>
+                <i class="fas fa-backward controls__icon" id="btn-prev"></i>
             </button>
             <button class="controls__play">
-                <i class="fas fa-play controls__icon"></i>
+                <i class="fas fa-play controls__icon" id="btn-play"></i>
             </button>
             <button class="controls__next">
-                <i class="fas fa-forward controls__icon"></i>
+                <i class="fas fa-forward controls__icon" id="btn-next"></i>
             </button>
         </section>
 
         <!-- Songs list -->
-        <ul class="sogs">
-            <li class="sogs__item"><a href="#" class="sogs__link">Song 1</a></li>
-            <li class="sogs__item"><a href="#" class="sogs__link">Song 2</a></li>
-            <li class="sogs__item"><a href="#" class="sogs__link">Song 3</a></li>
+        <ul class="sogs" id="sogs">
+            
         </ul>
 
     </main>
@@ -54,3 +54,8 @@
     <script src="js/main.js" defer></script>
 </body>
 </html>
+
+
+<!-- <li class="sogs__item"><a href="#" class="sogs__link active">Song 1</a></li>
+            <li class="sogs__item"><a href="#" class="sogs__link">Song 2</a></li>
+            <li class="sogs__item"><a href="#" class="sogs__link">Song 3</a></li> -->
